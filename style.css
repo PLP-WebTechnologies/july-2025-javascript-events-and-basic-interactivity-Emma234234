@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.faq-answer {
+  display: none;
+  margin-top: 5px;
+}
+
+.faq-question {
+  background: none;
+  border: none;
+  color: blue;
+  cursor: pointer;
+  text-align: left;
+}
+
+#form-messages {
+  margin-top: 10px;
+  color: red;
+}

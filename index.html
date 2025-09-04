@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <h1>Interactive Web Page</h1>
+
+  <!-- Light/Dark Mode Toggle -->
+  <section>
+    <button id="theme-toggle">Toggle Light/Dark Mode</button>
+  </section>
+
+  <!-- Counter Game -->
+  <section>
+    <h2>Counter</h2>
+    <button id="decrement">-</button>
+    <span id="counter">0</span>
+    <button id="increment">+</button>
+  </section>
+
+  <!-- Collapsible FAQ -->
+  <section>
+    <h2>FAQ</h2>
+    <div class="faq">
+      <button class="faq-question">What is this site?</button>
+      <div class="faq-answer">A simple interactive demo using JavaScript!</div>
+    </div>
+  </section>
+
+  <!-- Form -->
+  <section>
+    <h2>Contact Form</h2>
+    <form id="contact-form" novalidate>
+      <label>Name: <input type="text" id="name" /></label><br>
+      <label>Email: <input type="email" id="email" autocomplete="email"/></label><br>
+      <label>Password: <input type="password" id="password" autocomplete="current-password" /></label><br>
+      <button type="submit">Submit</button>
+      <div id="form-messages"></div>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
